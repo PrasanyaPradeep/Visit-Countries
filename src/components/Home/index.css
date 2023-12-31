@@ -1,0 +1,66 @@
+.main-container {
+  background-color: #161624;
+  padding: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+.not-visited {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-visited-text {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.countries-un-ordered-list {
+  max-height: 40vh;
+  border: 1px solid #94a3b8;
+  padding: 0px;
+  border-radius: 8px;
+  background-color: #1f1f2f;
+  overflow-y: scroll;
+  margin-bottom: 30px;
+}
+
+.visited-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+.visited-counties-unOrder-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 0px;
+}
